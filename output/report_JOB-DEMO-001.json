@@ -1,0 +1,180 @@
+{
+  "report_metadata": {
+    "job_id": "JOB-DEMO-001",
+    "job_title": "Senior Full-Stack Developer",
+    "company_name": "TechNova Sdn Bhd",
+    "generated_at": "2026-04-23T08:22:29.367136",
+    "total_candidates": 3,
+    "candidates_shortlisted": 3
+  },
+  "executive_summary": "Report compiled with fallback logic due to Secretary agent failure. Manual review recommended.",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "CAND-001",
+      "candidate_name": "Ahmad Razak",
+      "total_score": 0,
+      "profile": {
+        "verification_summary": {
+          "verified": 0,
+          "partially_verified": 0,
+          "unverified": 5,
+          "disputed": 0
+        },
+        "key_strengths": [
+          "Candidate's expected salary (MYR 12,000) is within the offered range (MYR 8,000-15,000)",
+          "Candidate's location (Kuala Lumpur) matches the job's office location",
+          "Candidate claims all four required skills (Python, React, PostgreSQL, Docker) plus one preferred skill (AWS)",
+          "Claimed experience levels exceed minimum requirements for all required skills (5yr vs 3yr Python, 3yr vs 2yr React, 4yr vs 2yr PostgreSQL, 2yr vs 1yr Docker)",
+          "Claimed contributions (REST APIs, SPA dashboards, schema design, containerized microservices) align well with the job's project contribution expectations"
+        ],
+        "red_flags": [
+          "GitHub account exists but has ZERO public repositories \u2014 highly unusual for a developer claiming 5+ years of experience across multiple technologies",
+          "No portfolio URL provided despite claiming extensive full-stack development experience",
+          "LinkedIn profile could not be verified due to access restrictions \u2014 endorsements, work history, and recommendations cannot be confirmed",
+          "All five claimed skills have absolutely no supporting online evidence \u2014 every skill is unverified",
+          "Candidate claims senior-level experience (5 years Python, 4 years PostgreSQL) but has no publicly visible code, projects, or contributions",
+          "No evidence of preferred skills (TypeScript, CI/CD, Kubernetes) that would strengthen a Senior Full-Stack application",
+          "No evidence of mentoring or leadership (required: 'Mentor junior developers') in any accessible profile"
+        ],
+        "discovered_skills": []
+      },
+      "score_breakdown": {
+        "required_skills_score": 0,
+        "preferred_skills_score": 0,
+        "verification_reliability": 0,
+        "fit_score": 0,
+        "modifiers": {}
+      },
+      "skill_details": [],
+      "recommended_questions": []
+    },
+    {
+      "rank": 2,
+      "candidate_id": "CAND-002",
+      "candidate_name": "Sarah Lim",
+      "total_score": 0,
+      "profile": {
+        "verification_summary": {
+          "verified": 0,
+          "partially_verified": 0,
+          "unverified": 5,
+          "disputed": 0
+        },
+        "key_strengths": [
+          "Claims 4 years of React experience, which exceeds the 2+ year requirement (though unverified).",
+          "Claims 3 years of PostgreSQL experience, which exceeds the 2+ year requirement (though unverified).",
+          "Claims experience in TypeScript, which is a preferred skill for the role (though unverified)."
+        ],
+        "red_flags": [
+          "GitHub handle 'sarahlim-dev' returns a 404 Not Found error, meaning the account does not exist or the handle is incorrect.",
+          "Portfolio URL 'https://sarahlim.dev' fails DNS resolution, meaning the domain is unregistered or inactive.",
+          "Zero verifiable evidence exists for any of the 5 claimed skills.",
+          "Claimed Python experience (2 years) falls short of the job requirement (3+ years)."
+        ],
+        "discovered_skills": []
+      },
+      "score_breakdown": {
+        "required_skills_score": 0,
+        "preferred_skills_score": 0,
+        "verification_reliability": 0,
+        "fit_score": 0,
+        "modifiers": {}
+      },
+      "skill_details": [],
+      "recommended_questions": [
+        {
+          "question": "You mentioned leading the frontend team for a fintech app using React. Walk me through how you designed the state management architecture for that application. Specifically, how did you handle real-time data updates (e.g., live transaction feeds or portfolio balances), and what trade-offs did you consider when choosing your state management approach over alternatives?",
+          "skill_tested": "React",
+          "reasoning": "This candidate claims 4 years of React experience and leadership of a fintech frontend team \u2014 both entirely unverified. A genuine lead on a fintech app would have made concrete architectural decisions around state management, real-time updates, and performance. This question cannot be faked with generic React knowledge; it demands specifics about architecture, trade-offs, and the unique constraints of financial applications (data consistency, latency, race conditions). Vague or purely theoretical answers strongly suggest the claimed experience is inflated.",
+          "difficulty": "advanced",
+          "verification_context": "probing unverified claim"
+        },
+        {
+          "question": "Your background in Python centers on data processing scripts with pandas, but this role requires leading backend API development. Imagine you're tasked with building a REST API for a multi-tenant SaaS platform where each tenant's data must be strictly isolated. How would you structure the API layer, handle tenant context propagation through the request lifecycle, and ensure data isolation at both the application and database levels? What Python framework would you choose and why?",
+          "skill_tested": "Python",
+          "reasoning": "This is the most critical gap in the candidate's profile: she claims only 2 years of Python (below the 3+ year requirement) and her contribution is limited to data processing scripts. The job explicitly requires leading backend API development. This question tests whether her Python skills extend beyond pandas scripting into production-grade API architecture. A candidate who has only written data processing scripts will struggle significantly with multi-tenancy, middleware design, and database-level isolation strategies.",
+          "difficulty": "advanced",
+          "verification_context": "probing unverified claim"
+        },
+        {
+          "question": "You've stated you have experience with PostgreSQL optimization and query tuning. Consider this scenario: a dashboard query that aggregates data across multiple tables (orders, customers, products) has degraded from 200ms to 8 seconds over six months as data grew from 100K to 5M rows. Walk me through your systematic approach to diagnosing and resolving this. Include how you'd use EXPLAIN ANALYZE, what you'd look for in the execution plan, and how you'd decide between indexing strategies, query rewriting, or architectural changes like materialized views.",
+          "skill_tested": "PostgreSQL",
+          "reasoning": "The candidate claims 3 years of PostgreSQL experience with a specific contribution in 'database optimization and query tuning' \u2014 entirely unverified. This scenario-based question tests whether she has genuinely diagnosed and resolved performance degradation, which leaves distinct experiential fingerprints. Someone who has actually done query tuning will describe a systematic process, reference specific EXPLAIN output patterns, and discuss the nuanced trade-offs between different optimization approaches. A candidate fabricating this experience will likely offer only surface-level advice like 'add an index.'",
+          "difficulty": "advanced",
+          "verification_context": "probing unverified claim"
+        },
+        {
+          "question": "You mentioned working in full TypeScript codebases. Consider this real challenge: you're building a shared type library for a monorepo containing both a React frontend and a Node.js backend. The backend API responses need type-safe contracts with the frontend consumers, but the API is evolving rapidly with frequent breaking changes. How would you design the type architecture to minimize breakage, handle API versioning at the type level, and ensure that frontend consumers get compile-time errors rather than runtime surprises when the API contract changes?",
+          "skill_tested": "TypeScript",
+          "reasoning": "Three years of TypeScript experience in 'full TypeScript codebases' should mean the candidate has encountered the practical challenges of type architecture at scale, not just written typed functions. This question probes whether her TypeScript experience is superficial (adding types to variables) or architectural (designing type systems for cross-team consumption). The monorepo + API contract scenario is a common real-world challenge that separates genuine experienced practitioners from those who have only used TypeScript casually.",
+          "difficulty": "advanced",
+          "verification_context": "probing unverified claim"
+        },
+        {
+          "question": "You described your Docker experience as 'basic containerization.' Let's test the boundaries of that. Say you have a Python FastAPI backend and a React frontend that need to be deployed together. The backend requires environment-specific configuration, a multi-stage build to keep the image small, and health check endpoints for orchestration. The frontend needs to be served by Nginx with a reverse proxy to the backend API. Walk me through how you'd structure the Dockerfile(s) and docker-compose.yml for this setup, including how you'd handle secrets, .env files, and networking between containers.",
+          "skill_tested": "Docker",
+          "reasoning": "The candidate claims 1 year of Docker experience but self-describes it as 'basic containerization.' Given that Docker is a required skill and the candidate's own assessment suggests limited depth, this question determines whether 'basic' means 'I've written a Dockerfile once' or 'I can set up a multi-service development environment.' The scenario directly maps to the job's full-stack context, so even intermediate Docker knowledge should be sufficient, but the candidate must demonstrate genuine hands-on experience rather than theoretical awareness.",
+          "difficulty": "intermediate",
+          "verification_context": "probing unverified claim"
+        },
+        {
+          "question": "This role requires mentoring junior developers. You mentioned leading a frontend team \u2014 can you describe a specific situation where a junior developer on your team was struggling with a technical concept or producing poor-quality code? What was the situation, how did you diagnose the root cause of their struggle, what specific mentoring approach did you take, and what was the measurable outcome? I'm interested in your mentoring philosophy and how you balance code quality with developer growth under project deadlines.",
+          "skill_tested": "Leadership & Mentoring",
+          "reasoning": "The job explicitly requires mentoring junior developers, and the candidate claims to have led a frontend team. However, with zero verifiable evidence for any claim, this behavioral question is designed to distinguish genuine leadership experience from title inflation. A real team lead will have specific, nuanced stories about mentoring challenges \u2014 the emotional intelligence, the pedagogical strategies, the tension between delivery and development. Fabricated or exaggerated leadership claims tend to produce vague, generic answers that lack the messy specifics of real human interactions.",
+          "difficulty": "intermediate",
+          "verification_context": "probing unverified claim"
+        },
+        {
+          "question": "I want to address something directly: we attempted to verify your online presence \u2014 your GitHub handle, portfolio URL, and LinkedIn \u2014 and none were accessible. The GitHub returned a 404, and the portfolio domain doesn't resolve. Can you explain what happened with these profiles? Additionally, your Python experience is listed as 2 years against a 3+ year requirement, with contributions limited to data processing scripts. What gives you confidence that you can lead backend API development in this role, and what specific steps have you taken or would you take to bridge that gap?",
+          "skill_tested": "Honesty & Self-Awareness",
+          "reasoning": "This is the most critical question given the candidate's profile. Every single skill claim is unverified with 0.0 confidence, and the provided online profiles are non-functional. This creates a legitimate trust concern that must be addressed directly. The question serves three purposes: (1) it gives the candidate a fair chance to explain the discrepancies \u2014 there may be legitimate reasons (privacy settings, handle changes, domain expiration); (2) it tests intellectual honesty and self-awareness regarding the Python experience gap; (3) it observes how the candidate handles direct, uncomfortable questioning \u2014 a crucial trait for a senior developer who must give and receive candid feedback. Defensive, evasive, or dishonest responses are significant red flags for a senior role.",
+          "difficulty": "intermediate",
+          "verification_context": "challenging disputed claim"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "candidate_id": "CAND-003",
+      "candidate_name": "Chen Wei",
+      "total_score": 0,
+      "profile": {
+        "verification_summary": {
+          "verified": 0,
+          "partially_verified": 0,
+          "unverified": 3,
+          "disputed": 0
+        },
+        "key_strengths": [
+          "Candidate's claimed Python experience (7 years) exceeds the job requirement (3+ years), if verifiable.",
+          "Candidate's stated contribution area (ML pipeline development and API design) aligns with the job's project contribution requirement of 'Lead backend API development'.",
+          "Candidate is located in Cyberjaya, Malaysia \u2014 geographically proximate to the Kuala Lumpur office."
+        ],
+        "red_flags": [
+          "GitHub handle 'chenwei-ml' returns 404 Not Found \u2014 the profile does not exist or has been deleted/renamed. This is the only evidence source provided.",
+          "No LinkedIn profile provided \u2014 no professional endorsements, work history, or peer recommendations can be verified.",
+          "No portfolio URL or personal website provided \u2014 no project showcases or case studies available for review.",
+          "No social media links provided \u2014 no additional channels for cross-referencing professional identity or skills.",
+          "Zero verifiable evidence for ANY claimed skill \u2014 all three skills (Python, React, MongoDB) are completely unverified.",
+          "React experience claimed at 1 year, but job requires 2+ years \u2014 candidate does not meet this requirement even by their own claim.",
+          "Missing required skills: PostgreSQL (2+ years) and Docker (1+ year) are not listed in candidate's profile at all.",
+          "Candidate lists MongoDB (5 years) but job requires PostgreSQL \u2014 different database paradigm; no SQL database experience claimed.",
+          "Expected salary (16,000 MYR) exceeds the job's maximum range (15,000 MYR).",
+          "Candidate claims 7 years Python experience with ML pipeline development \u2014 a senior-level claim with absolutely no supporting evidence, which is suspicious."
+        ],
+        "discovered_skills": []
+      },
+      "score_breakdown": {
+        "required_skills_score": 0,
+        "preferred_skills_score": 0,
+        "verification_reliability": 0,
+        "fit_score": 0,
+        "modifiers": {}
+      },
+      "skill_details": [],
+      "recommended_questions": []
+    }
+  ],
+  "recommendations": "Manual review recommended due to partial processing errors."
+}

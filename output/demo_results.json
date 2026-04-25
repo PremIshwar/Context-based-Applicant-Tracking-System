@@ -1,0 +1,297 @@
+{
+  "job_id": "JOB-2025-001",
+  "title": "Senior Cybersecurity Analyst",
+  "total_applicants": 5,
+  "structured_profiles": [
+    {
+      "applicant_id": "1",
+      "selected_job_id": "JOB-2025-001",
+      "skills": [],
+      "work_experience": [],
+      "education": [],
+      "cert": [],
+      "extracurricular": {
+        "competitions": [],
+        "community": [],
+        "roles": [],
+        "project": []
+      }
+    },
+    {
+      "applicant_id": "2",
+      "selected_job_id": "JOB-2025-001",
+      "skills": [
+        "Python",
+        "Network Security",
+        "Incident Response",
+        "Linux",
+        "SIEM Tools",
+        "AWS Security",
+        "Threat Intelligence",
+        "Terraform",
+        "English",
+        "Bahasa Malaysia",
+        "Tamil"
+      ],
+      "work_experience": [
+        {
+          "position": "SOC Analyst",
+          "time": "Jun 2022 - Present"
+        },
+        {
+          "position": "IT Support Engineer",
+          "time": "Jan 2021 - May 2022"
+        }
+      ],
+      "education": [
+        "BSc Information Technology"
+      ],
+      "cert": [
+        "AWS Certified Security - Specialty",
+        "CompTIA Security+"
+      ],
+      "extracurricular": {
+        "competitions": [],
+        "community": [
+          "Volunteer Mentor — Women in Cybersecurity Malaysia"
+        ],
+        "roles": [],
+        "project": [
+          "Article Contributor — Supply Chain Attack Analysis",
+          "aws-security-scripts: Collection of AWS security automation scripts in Python",
+          "incident-playbooks: Standardized IR playbooks for common attack scenarios",
+          "log-analyzer: Python-based log analysis tool for security event correlation"
+        ]
+      }
+    },
+    {
+      "applicant_id": "3",
+      "selected_job_id": "JOB-2025-001",
+      "skills": [
+        "Python",
+        "Linux (Ubuntu, RHEL)",
+        "Firewall Management (iptables, pfSense)",
+        "Network Security",
+        "Wireshark",
+        "TCP/IP",
+        "English",
+        "Bahasa Malaysia",
+        "Mandarin",
+        "Nagios",
+        "Penetration Testing",
+        "VLAN",
+        "Access Control Lists",
+        "Incident Response",
+        "Triage"
+      ],
+      "work_experience": [
+        {
+          "position": "Network Administrator",
+          "time": "Feb 2022 - Present"
+        },
+        {
+          "position": "Junior SOC Analyst",
+          "time": "Jan 2021 - Jan 2022"
+        }
+      ],
+      "education": [
+        "Diploma in Network Engineering — Politeknik Shah Alam (2018-2021)"
+      ],
+      "cert": [],
+      "extracurricular": {
+        "competitions": [],
+        "community": [],
+        "roles": [],
+        "project": [
+          "firewall-rules-generator: Python tool to auto-generate firewall rules from network policies",
+          "network-monitoring-scripts: Collection of Python scripts for network health monitoring"
+        ]
+      }
+    },
+    {
+      "applicant_id": "4",
+      "selected_job_id": "JOB-2025-001",
+      "skills": [
+        "Python (Basic)",
+        "Linux (Basic)",
+        "Basic Networking",
+        "English",
+        "Bahasa Malaysia",
+        "Desktop Support",
+        "Network Troubleshooting",
+        "Incident Response"
+      ],
+      "work_experience": [
+        {
+          "position": "IT Intern",
+          "time": "Jun 2024 - Dec 2024"
+        }
+      ],
+      "education": [
+        "BSc Computer Science — Universiti Kebangsaan Malaysia (2021-2024)"
+      ],
+      "cert": [],
+      "extracurricular": {
+        "competitions": [],
+        "community": [],
+        "roles": [
+          "Member of Computer Science Club — UKM (2022-2024)"
+        ],
+        "project": []
+      }
+    },
+    {
+      "applicant_id": "5",
+      "selected_job_id": "JOB-2025-001",
+      "skills": [
+        "Windows Administration",
+        "Microsoft Office Suite",
+        "Basic Python",
+        "English",
+        "Bahasa Malaysia",
+        "L1 and L2 Desktop Support",
+        "Active Directory",
+        "Hardware Troubleshooting",
+        "IT Asset Inventory",
+        "License Management"
+      ],
+      "work_experience": [
+        {
+          "position": "Desktop Support Technician",
+          "time": "Jan 2021 - Present"
+        }
+      ],
+      "education": [
+        "Diploma in Information Technology — Kolej Tunku Abdul Rahman (2016-2019)"
+      ],
+      "cert": [],
+      "extracurricular": {
+        "competitions": [],
+        "community": [],
+        "roles": [],
+        "project": []
+      }
+    }
+  ],
+  "results": [
+    {
+      "applicant_id": "1",
+      "applicant_name": "",
+      "evaluation_score": 0,
+      "rank": 1,
+      "summary": "Verification failed: Server error '504 Gateway Timeout' for url 'https://api.ilmu.ai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "aspect_scores": {
+        "technical_skills": 0,
+        "work_experience": 0,
+        "certifications": 0,
+        "community_engagement": 0,
+        "project_quality": 0
+      },
+      "strengths": [],
+      "gaps": [
+        "Verification process failed — manual review required"
+      ],
+      "recommended_questions": []
+    },
+    {
+      "applicant_id": "2",
+      "applicant_name": "",
+      "evaluation_score": 0,
+      "rank": 2,
+      "summary": "Verification failed: Server error '504 Gateway Timeout' for url 'https://api.ilmu.ai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "aspect_scores": {
+        "technical_skills": 0,
+        "work_experience": 0,
+        "certifications": 0,
+        "community_engagement": 0,
+        "project_quality": 0
+      },
+      "strengths": [],
+      "gaps": [
+        "Verification process failed — manual review required"
+      ],
+      "recommended_questions": [
+        "Tell us about your experience with Python.",
+        "Tell us about your experience with Network Security.",
+        "Tell us about your experience with Incident Response.",
+        "Tell us about your experience with Linux.",
+        "Tell us about your experience with SIEM Tools."
+      ]
+    },
+    {
+      "applicant_id": "3",
+      "applicant_name": "",
+      "evaluation_score": 0,
+      "rank": 3,
+      "summary": "Verification failed: Server error '504 Gateway Timeout' for url 'https://api.ilmu.ai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "aspect_scores": {
+        "technical_skills": 0,
+        "work_experience": 0,
+        "certifications": 0,
+        "community_engagement": 0,
+        "project_quality": 0
+      },
+      "strengths": [],
+      "gaps": [
+        "Verification process failed — manual review required"
+      ],
+      "recommended_questions": [
+        "Tell us about your experience with Python.",
+        "Tell us about your experience with Linux (Ubuntu, RHEL).",
+        "Tell us about your experience with Firewall Management (iptables, pfSense).",
+        "Tell us about your experience with Network Security.",
+        "Tell us about your experience with Wireshark."
+      ]
+    },
+    {
+      "applicant_id": "4",
+      "applicant_name": "",
+      "evaluation_score": 0,
+      "rank": 4,
+      "summary": "Verification failed: Server error '504 Gateway Timeout' for url 'https://api.ilmu.ai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "aspect_scores": {
+        "technical_skills": 0,
+        "work_experience": 0,
+        "certifications": 0,
+        "community_engagement": 0,
+        "project_quality": 0
+      },
+      "strengths": [],
+      "gaps": [
+        "Verification process failed — manual review required"
+      ],
+      "recommended_questions": [
+        "Tell us about your experience with Python (Basic).",
+        "Tell us about your experience with Linux (Basic).",
+        "Tell us about your experience with Basic Networking.",
+        "Tell us about your experience with English.",
+        "Tell us about your experience with Bahasa Malaysia."
+      ]
+    },
+    {
+      "applicant_id": "5",
+      "applicant_name": "",
+      "evaluation_score": 0,
+      "rank": 5,
+      "summary": "Verification failed: Server error '504 Gateway Timeout' for url 'https://api.ilmu.ai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+      "aspect_scores": {
+        "technical_skills": 0,
+        "work_experience": 0,
+        "certifications": 0,
+        "community_engagement": 0,
+        "project_quality": 0
+      },
+      "strengths": [],
+      "gaps": [
+        "Verification process failed — manual review required"
+      ],
+      "recommended_questions": [
+        "Tell us about your experience with Windows Administration.",
+        "Tell us about your experience with Microsoft Office Suite.",
+        "Tell us about your experience with Basic Python.",
+        "Tell us about your experience with English.",
+        "Tell us about your experience with Bahasa Malaysia."
+      ]
+    }
+  ]
+}

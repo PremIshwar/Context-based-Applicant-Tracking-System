@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Candidate Screening Report — Senior Full-Stack Developer</title>
+<style>
+  @page { size: A4; margin: 20mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1a1a2e; line-height: 1.6; padding: 20px; }
+  .header { background: linear-gradient(135deg, #0f3460, #16213e); color: white; padding: 30px; border-radius: 10px; margin-bottom: 30px; }
+  .header h1 { font-size: 24px; margin-bottom: 5px; }
+  .header .meta { font-size: 13px; opacity: 0.85; }
+  .executive-summary { background: #f0f4ff; padding: 20px; border-radius: 8px; border-left: 4px solid #0f3460; margin-bottom: 30px; }
+  .executive-summary h2 { margin-bottom: 10px; color: #0f3460; }
+  .candidate-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; padding: 25px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); page-break-inside: avoid; }
+  .candidate-header { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
+  .rank-badge { background: #0f3460; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 16px; }
+  .candidate-header h3 { flex: 1; font-size: 20px; color: #16213e; }
+  .score-badge { background: #e94560; color: white; padding: 5px 14px; border-radius: 20px; font-weight: bold; }
+  .verification-summary { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 15px; }
+  .v-badge { padding: 4px 12px; border-radius: 15px; font-size: 12px; font-weight: 600; }
+  .v-verified { background: #d4edda; color: #155724; }
+  .v-partial { background: #fff3cd; color: #856404; }
+  .v-unverified { background: #f8d7da; color: #721c24; }
+  .v-disputed { background: #e2e3e5; color: #383d41; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 15px; }
+  .col h4 { color: #0f3460; margin-bottom: 8px; }
+  .col ul { padding-left: 20px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 20px 0; font-size: 13px; }
+  th { background: #0f3460; color: white; padding: 10px; text-align: left; }
+  td { padding: 8px 10px; border-bottom: 1px solid #eee; }
+  .badge { padding: 3px 10px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .badge-verified { background: #d4edda; color: #155724; }
+  .badge-partially_verified { background: #fff3cd; color: #856404; }
+  .badge-unverified { background: #f8d7da; color: #721c24; }
+  .badge-disputed { background: #e2e3e5; color: #383d41; }
+  .question-card { background: #fafbff; border: 1px solid #dde; border-radius: 8px; padding: 15px; margin-bottom: 12px; }
+  .question-header { display: flex; gap: 10px; align-items: center; margin-bottom: 8px; }
+  .difficulty { padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 700; }
+  .difficulty-basic { background: #c3e6cb; color: #155724; }
+  .difficulty-intermediate { background: #bee5eb; color: #0c5460; }
+  .difficulty-advanced { background: #ffeeba; color: #856404; }
+  .difficulty-expert { background: #f5c6cb; color: #721c24; }
+  .context { font-size: 12px; color: #6c757d; font-style: italic; }
+  .question-text { font-size: 15px; font-weight: 600; margin-bottom: 6px; color: #16213e; }
+  .skill-tested { font-size: 13px; color: #495057; }
+  .reasoning { font-size: 13px; color: #6c757d; margin-top: 4px; }
+  .recommendations { background: #f0f4ff; padding: 20px; border-radius: 8px; border-left: 4px solid #e94560; margin-top: 30px; }
+  .recommendations h2 { color: #e94560; margin-bottom: 10px; }
+  h4 { color: #0f3460; margin: 15px 0 8px 0; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>Candidate Screening Report</h1>
+    <div class="meta">
+      <strong>Senior Full-Stack Developer</strong> at <strong>TechNova Sdn Bhd</strong><br>
+      Job ID: JOB-DEMO-001 | Generated: 2026-04-23T08:22:29.367136<br>
+      3 candidates shortlisted from 3 applicants
+    </div>
+  </div>
+
+  <div class="executive-summary">
+    <h2>Executive Summary</h2>
+    <p>Report compiled with fallback logic due to Secretary agent failure. Manual review recommended.</p>
+  </div>
+
+  
+      <div class="candidate-card" id="candidate-1">
+        <div class="candidate-header">
+          <span class="rank-badge">#1</span>
+          <h3>Ahmad Razak</h3>
+          <span class="score-badge">0/100</span>
+        </div>
+        <div class="verification-summary">
+          <span class="v-badge v-verified">Verified: 0</span>
+          <span class="v-badge v-partial">Partial: 0</span>
+          <span class="v-badge v-unverified">Unverified: 5</span>
+          <span class="v-badge v-disputed">Disputed: 0</span>
+        </div>
+        <div class="two-col">
+          <div class="col">
+            <h4>Key Strengths</h4><ul><li>Candidate's expected salary (MYR 12,000) is within the offered range (MYR 8,000-15,000)</li><li>Candidate's location (Kuala Lumpur) matches the job's office location</li><li>Candidate claims all four required skills (Python, React, PostgreSQL, Docker) plus one preferred skill (AWS)</li><li>Claimed experience levels exceed minimum requirements for all required skills (5yr vs 3yr Python, 3yr vs 2yr React, 4yr vs 2yr PostgreSQL, 2yr vs 1yr Docker)</li><li>Claimed contributions (REST APIs, SPA dashboards, schema design, containerized microservices) align well with the job's project contribution expectations</li></ul>
+          </div>
+          <div class="col">
+            <h4>Red Flags</h4><ul><li>GitHub account exists but has ZERO public repositories — highly unusual for a developer claiming 5+ years of experience across multiple technologies</li><li>No portfolio URL provided despite claiming extensive full-stack development experience</li><li>LinkedIn profile could not be verified due to access restrictions — endorsements, work history, and recommendations cannot be confirmed</li><li>All five claimed skills have absolutely no supporting online evidence — every skill is unverified</li><li>Candidate claims senior-level experience (5 years Python, 4 years PostgreSQL) but has no publicly visible code, projects, or contributions</li><li>No evidence of preferred skills (TypeScript, CI/CD, Kubernetes) that would strengthen a Senior Full-Stack application</li><li>No evidence of mentoring or leadership (required: 'Mentor junior developers') in any accessible profile</li></ul>
+          </div>
+        </div>
+        
+        <h4>Skill Breakdown</h4>
+        <table>
+          <thead><tr><th>Skill</th><th>Status</th><th>Score</th><th>Notes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <h4>Recommended Interview Questions</h4>
+        
+      </div>
+      <div class="candidate-card" id="candidate-2">
+        <div class="candidate-header">
+          <span class="rank-badge">#2</span>
+          <h3>Sarah Lim</h3>
+          <span class="score-badge">0/100</span>
+        </div>
+        <div class="verification-summary">
+          <span class="v-badge v-verified">Verified: 0</span>
+          <span class="v-badge v-partial">Partial: 0</span>
+          <span class="v-badge v-unverified">Unverified: 5</span>
+          <span class="v-badge v-disputed">Disputed: 0</span>
+        </div>
+        <div class="two-col">
+          <div class="col">
+            <h4>Key Strengths</h4><ul><li>Claims 4 years of React experience, which exceeds the 2+ year requirement (though unverified).</li><li>Claims 3 years of PostgreSQL experience, which exceeds the 2+ year requirement (though unverified).</li><li>Claims experience in TypeScript, which is a preferred skill for the role (though unverified).</li></ul>
+          </div>
+          <div class="col">
+            <h4>Red Flags</h4><ul><li>GitHub handle 'sarahlim-dev' returns a 404 Not Found error, meaning the account does not exist or the handle is incorrect.</li><li>Portfolio URL 'https://sarahlim.dev' fails DNS resolution, meaning the domain is unregistered or inactive.</li><li>Zero verifiable evidence exists for any of the 5 claimed skills.</li><li>Claimed Python experience (2 years) falls short of the job requirement (3+ years).</li></ul>
+          </div>
+        </div>
+        
+        <h4>Skill Breakdown</h4>
+        <table>
+          <thead><tr><th>Skill</th><th>Status</th><th>Score</th><th>Notes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <h4>Recommended Interview Questions</h4>
+        
+            <div class="question-card">
+              <div class="question-header">
+                <span class="difficulty difficulty-advanced">ADVANCED</span>
+                <span class="context">probing unverified claim</span>
+              </div>
+              <p class="question-text">You mentioned leading the frontend team for a fintech app using React. Walk me through how you designed the state management architecture for that application. Specifically, how did you handle real-time data updates (e.g., live transaction feeds or portfolio balances), and what trade-offs did you consider when choosing your state management approach over alternatives?</p>
+              <p class="skill-tested"><strong>Skill:</strong> React</p>
+              <p class="reasoning"><strong>Why ask this:</strong> This candidate claims 4 years of React experience and leadership of a fintech frontend team — both entirely unverified. A genuine lead on a fintech app would have made concrete architectural decisions around state management, real-time updates, and performance. This question cannot be faked with generic React knowledge; it demands specifics about architecture, trade-offs, and the unique constraints of financial applications (data consistency, latency, race conditions). Vague or purely theoretical answers strongly suggest the claimed experience is inflated.</p>
+            </div>
+            <div class="question-card">
+              <div class="question-header">
+                <span class="difficulty difficulty-advanced">ADVANCED</span>
+                <span class="context">probing unverified claim</span>
+              </div>
+              <p class="question-text">Your background in Python centers on data processing scripts with pandas, but this role requires leading backend API development. Imagine you're tasked with building a REST API for a multi-tenant SaaS platform where each tenant's data must be strictly isolated. How would you structure the API layer, handle tenant context propagation through the request lifecycle, and ensure data isolation at both the application and database levels? What Python framework would you choose and why?</p>
+              <p class="skill-tested"><strong>Skill:</strong> Python</p>
+              <p class="reasoning"><strong>Why ask this:</strong> This is the most critical gap in the candidate's profile: she claims only 2 years of Python (below the 3+ year requirement) and her contribution is limited to data processing scripts. The job explicitly requires leading backend API development. This question tests whether her Python skills extend beyond pandas scripting into production-grade API architecture. A candidate who has only written data processing scripts will struggle significantly with multi-tenancy, middleware design, and database-level isolation strategies.</p>
+            </div>
+            <div class="question-card">
+              <div class="question-header">
+                <span class="difficulty difficulty-advanced">ADVANCED</span>
+                <span class="context">probing unverified claim</span>
+              </div>
+              <p class="question-text">You've stated you have experience with PostgreSQL optimization and query tuning. Consider this scenario: a dashboard query that aggregates data across multiple tables (orders, customers, products) has degraded from 200ms to 8 seconds over six months as data grew from 100K to 5M rows. Walk me through your systematic approach to diagnosing and resolving this. Include how you'd use EXPLAIN ANALYZE, what you'd look for in the execution plan, and how you'd decide between indexing strategies, query rewriting, or architectural changes like materialized views.</p>
+              <p class="skill-tested"><strong>Skill:</strong> PostgreSQL</p>
+              <p class="reasoning"><strong>Why ask this:</strong> The candidate claims 3 years of PostgreSQL experience with a specific contribution in 'database optimization and query tuning' — entirely unverified. This scenario-based question tests whether she has genuinely diagnosed and resolved performance degradation, which leaves distinct experiential fingerprints. Someone who has actually done query tuning will describe a systematic process, reference specific EXPLAIN output patterns, and discuss the nuanced trade-offs between different optimization approaches. A candidate fabricating this experience will likely offer only surface-level advice like 'add an index.'</p>
+            </div>
+            <div class="question-card">
+              <div class="question-header">
+                <span class="difficulty difficulty-advanced">ADVANCED</span>
+                <span class="context">probing unverified claim</span>
+              </div>
+              <p class="question-text">You mentioned working in full TypeScript codebases. Consider this real challenge: you're building a shared type library for a monorepo containing both a React frontend and a Node.js backend. The backend API responses need type-safe contracts with the frontend consumers, but the API is evolving rapidly with frequent breaking changes. How would you design the type architecture to minimize breakage, handle API versioning at the type level, and ensure that frontend consumers get compile-time errors rather than runtime surprises when the API contract changes?</p>
+              <p class="skill-tested"><strong>Skill:</strong> TypeScript</p>
+              <p class="reasoning"><strong>Why ask this:</strong> Three years of TypeScript experience in 'full TypeScript codebases' should mean the candidate has encountered the practical challenges of type architecture at scale, not just written typed functions. This question probes whether her TypeScript experience is superficial (adding types to variables) or architectural (designing type systems for cross-team consumption). The monorepo + API contract scenario is a common real-world challenge that separates genuine experienced practitioners from those who have only used TypeScript casually.</p>
+            </div>
+            <div class="question-card">
+              <div class="question-header">
+                <span class="difficulty difficulty-intermediate">INTERMEDIATE</span>
+                <span class="context">probing unverified claim</span>
+              </div>
+              <p class="question-text">You described your Docker experience as 'basic containerization.' Let's test the boundaries of that. Say you have a Python FastAPI backend and a React frontend that need to be deployed together. The backend requires environment-specific configuration, a multi-stage build to keep the image small, and health check endpoints for orchestration. The frontend needs to be served by Nginx with a reverse proxy to the backend API. Walk me through how you'd structure the Dockerfile(s) and docker-compose.yml for this setup, including how you'd handle secrets, .env files, and networking between containers.</p>
+              <p class="skill-tested"><strong>Skill:</strong> Docker</p>
+              <p class="reasoning"><strong>Why ask this:</strong> The candidate claims 1 year of Docker experience but self-describes it as 'basic containerization.' Given that Docker is a required skill and the candidate's own assessment suggests limited depth, this question determines whether 'basic' means 'I've written a Dockerfile once' or 'I can set up a multi-service development environment.' The scenario directly maps to the job's full-stack context, so even intermediate Docker knowledge should be sufficient, but the candidate must demonstrate genuine hands-on experience rather than theoretical awareness.</p>
+            </div>
+            <div class="question-card">
+              <div class="question-header">
+                <span class="difficulty difficulty-intermediate">INTERMEDIATE</span>
+                <span class="context">probing unverified claim</span>
+              </div>
+              <p class="question-text">This role requires mentoring junior developers. You mentioned leading a frontend team — can you describe a specific situation where a junior developer on your team was struggling with a technical concept or producing poor-quality code? What was the situation, how did you diagnose the root cause of their struggle, what specific mentoring approach did you take, and what was the measurable outcome? I'm interested in your mentoring philosophy and how you balance code quality with developer growth under project deadlines.</p>
+              <p class="skill-tested"><strong>Skill:</strong> Leadership & Mentoring</p>
+              <p class="reasoning"><strong>Why ask this:</strong> The job explicitly requires mentoring junior developers, and the candidate claims to have led a frontend team. However, with zero verifiable evidence for any claim, this behavioral question is designed to distinguish genuine leadership experience from title inflation. A real team lead will have specific, nuanced stories about mentoring challenges — the emotional intelligence, the pedagogical strategies, the tension between delivery and development. Fabricated or exaggerated leadership claims tend to produce vague, generic answers that lack the messy specifics of real human interactions.</p>
+            </div>
+            <div class="question-card">
+              <div class="question-header">
+                <span class="difficulty difficulty-intermediate">INTERMEDIATE</span>
+                <span class="context">challenging disputed claim</span>
+              </div>
+              <p class="question-text">I want to address something directly: we attempted to verify your online presence — your GitHub handle, portfolio URL, and LinkedIn — and none were accessible. The GitHub returned a 404, and the portfolio domain doesn't resolve. Can you explain what happened with these profiles? Additionally, your Python experience is listed as 2 years against a 3+ year requirement, with contributions limited to data processing scripts. What gives you confidence that you can lead backend API development in this role, and what specific steps have you taken or would you take to bridge that gap?</p>
+              <p class="skill-tested"><strong>Skill:</strong> Honesty & Self-Awareness</p>
+              <p class="reasoning"><strong>Why ask this:</strong> This is the most critical question given the candidate's profile. Every single skill claim is unverified with 0.0 confidence, and the provided online profiles are non-functional. This creates a legitimate trust concern that must be addressed directly. The question serves three purposes: (1) it gives the candidate a fair chance to explain the discrepancies — there may be legitimate reasons (privacy settings, handle changes, domain expiration); (2) it tests intellectual honesty and self-awareness regarding the Python experience gap; (3) it observes how the candidate handles direct, uncomfortable questioning — a crucial trait for a senior developer who must give and receive candid feedback. Defensive, evasive, or dishonest responses are significant red flags for a senior role.</p>
+            </div>
+      </div>
+      <div class="candidate-card" id="candidate-3">
+        <div class="candidate-header">
+          <span class="rank-badge">#3</span>
+          <h3>Chen Wei</h3>
+          <span class="score-badge">0/100</span>
+        </div>
+        <div class="verification-summary">
+          <span class="v-badge v-verified">Verified: 0</span>
+          <span class="v-badge v-partial">Partial: 0</span>
+          <span class="v-badge v-unverified">Unverified: 3</span>
+          <span class="v-badge v-disputed">Disputed: 0</span>
+        </div>
+        <div class="two-col">
+          <div class="col">
+            <h4>Key Strengths</h4><ul><li>Candidate's claimed Python experience (7 years) exceeds the job requirement (3+ years), if verifiable.</li><li>Candidate's stated contribution area (ML pipeline development and API design) aligns with the job's project contribution requirement of 'Lead backend API development'.</li><li>Candidate is located in Cyberjaya, Malaysia — geographically proximate to the Kuala Lumpur office.</li></ul>
+          </div>
+          <div class="col">
+            <h4>Red Flags</h4><ul><li>GitHub handle 'chenwei-ml' returns 404 Not Found — the profile does not exist or has been deleted/renamed. This is the only evidence source provided.</li><li>No LinkedIn profile provided — no professional endorsements, work history, or peer recommendations can be verified.</li><li>No portfolio URL or personal website provided — no project showcases or case studies available for review.</li><li>No social media links provided — no additional channels for cross-referencing professional identity or skills.</li><li>Zero verifiable evidence for ANY claimed skill — all three skills (Python, React, MongoDB) are completely unverified.</li><li>React experience claimed at 1 year, but job requires 2+ years — candidate does not meet this requirement even by their own claim.</li><li>Missing required skills: PostgreSQL (2+ years) and Docker (1+ year) are not listed in candidate's profile at all.</li><li>Candidate lists MongoDB (5 years) but job requires PostgreSQL — different database paradigm; no SQL database experience claimed.</li><li>Expected salary (16,000 MYR) exceeds the job's maximum range (15,000 MYR).</li><li>Candidate claims 7 years Python experience with ML pipeline development — a senior-level claim with absolutely no supporting evidence, which is suspicious.</li></ul>
+          </div>
+        </div>
+        
+        <h4>Skill Breakdown</h4>
+        <table>
+          <thead><tr><th>Skill</th><th>Status</th><th>Score</th><th>Notes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <h4>Recommended Interview Questions</h4>
+        
+      </div>
+
+  <div class="recommendations">
+    <h2>Recommendations</h2>
+    <p>Manual review recommended due to partial processing errors.</p>
+  </div>
+</body>
+</html>
