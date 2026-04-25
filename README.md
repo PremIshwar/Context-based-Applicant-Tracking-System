@@ -2,6 +2,8 @@
 
 An AI-powered candidate screening system where **ilmu-glm-5.1** acts as the central reasoning engine to transform raw resumes into evaluated, ranked candidate profiles with recommended interview questions.
 
+Demo Video: [CATS — Context-based Application Tracking System](https://youtu.be/NjDxsRCvAxk)
+
 ## Architecture
 
 ```
